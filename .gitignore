@@ -1,0 +1,20 @@
+# Credenciais e dados sensiveis
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+id_rsa*
+id_ed25519*
+
+# Arquivos locais
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
+venv/
+node_modules/
